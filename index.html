@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BESTCAP Enrollment SY 2025-2026</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #0d0d0d; color: #f5f5f5;
+    }
+    header { background: linear-gradient(90deg, #003366, #004080); color: #ffcc00; text-align: center; padding: 30px 20px; box-shadow: 0 3px 8px rgba(0,0,0,0.5); }
+    header img { width: 120px; margin: 0 auto 15px; display: block; border-radius: 50%; border: 3px solid #ffcc00; background: white; }
+    nav { background: #1a1a1a; padding: 12px; text-align: center; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 6px rgba(0,0,0,0.7); }
+    nav a { color: #ffcc00; margin: 0 18px; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+    nav a:hover { color: #4da6ff; }
+    section { padding: 35px; max-width: 950px; margin: 25px auto; background: #1a1a1a; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.6); animation: fadeIn 0.7s ease-in-out; }
+    h2 { color: #ffcc00; border-left: 6px solid #4da6ff; padding-left: 12px; margin-bottom: 20px; }
+    ul { line-height: 1.8; }
+    ul li { margin-bottom: 6px; }
+    footer { background: #003366; color: #ffcc00; text-align: center; padding: 18px; margin-top: 40px; font-size: 14px; letter-spacing: 1px; }
+    a { color: #4da6ff; transition: color 0.3s; }
+    a:hover { color: #ffcc00; }
+
+    form { display: flex; flex-direction: column; gap: 12px; background: #141414; padding: 25px; border-radius: 12px; }
+    input, select, textarea { padding: 12px; border: none; border-radius: 6px; outline: none; font-size: 15px; background: #262626; color: #fff; transition: 0.3s; }
+    input:focus, select:focus, textarea:focus { border: 2px solid #4da6ff; background: #1f1f1f; }
+    button { background: #ffcc00; color: #000; font-weight: bold; border: none; padding: 12px; border-radius: 6px; cursor: pointer; transition: 0.3s; }
+    button:hover { background: #4da6ff; color: #fff; }
+
+    #formMessage { text-align: center; margin-top: 15px; font-weight: bold; display: none; padding: 10px; border-radius: 6px; }
+    #formMessage.success { color: #0f0; background: rgba(0,255,0,0.1); }
+    #formMessage.error { color: #f00; background: rgba(255,0,0,0.1); }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.jpg" alt="BESTCAP Logo">
+  <h1>BESTCAP Career College Inc.</h1>
+  <p>Enrollment Information | SY 2025-2026</p>
+</header>
+
+<nav>
+  <a href="#programs">Programs</a>
+  <a href="#requirements">Requirements</a>
+  <a href="#discounts">Discounts</a>
+  <a href="#enrollment">Enrollment</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="programs">
+  <h2>Programs Offered</h2>
+  <ul>
+    <li>Kindergarten (5 years old)</li>
+    <li>Elementary (Grades 1-6)</li>
+    <li>Junior High School (Grades 7-10)</li>
+    <li>Senior High School (Grades 11-12): ABM, HUMSS, STEM</li>
+  </ul>
+</section>
+
+<section id="requirements">
+  <h2>Requirements for Admission</h2>
+  <ul>
+    <li>Report Card (Form 138)</li>
+    <li>Certificate of Completion (for Grade 7)</li>
+    <li>SHS Voucher Certificate (for Grade 11 & 12)</li>
+    <li>PSA Birth Certificate</li>
+    <li>Certificate of Good Moral Character</li>
+    <li>Form 137 (if available)</li>
+    <li>For Grade 7 & 11: Certificate of Indigency (for scholarship)</li>
+  </ul>
+</section>
+
+<section id="discounts">
+  <h2>Discounts & Scholarships</h2>
+  <ul>
+    <li>DepEd Subsidies (ESC Grants & SHS Voucher Program)</li>
+    <li>Academic Discounts (Grade 7 & 11):
+      <ul>
+        <li>With Highest Honors: 100%</li>
+        <li>With High Honors: 50%</li>
+        <li>With Honors: 25%</li>
+      </ul>
+    </li>
+    <li>Sibling Discounts: up to 5%</li>
+    <li>Miscellaneous Discounts: 2%</li>
+    <li>BESTCAP Scholarship for Economically Disadvantaged Learners</li>
+  </ul>
+</section>
+
+<section id="enrollment">
+  <h2>Online Enrollment Form</h2>
+  <form id="enrollForm">
+    <input type="text" name="student_name" placeholder="Student Name" required>
+    <select name="grade" required>
+      <option value="">Select Grade Level</option>
+      <option>Kindergarten 1</option> 
+      <option>Kindergarten 2</option>
+      <option>Grade 1</option>
+      <option>Grade 2</option>
+      <option>Grade 3</option>
+      <option>Grade 4</option>
+      <option>Grade 5</option>
+      <option>Grade 6</option>
+      <option>Grade 7</option>
+      <option>Grade 8</option>
+      <option>Grade 9</option>
+      <option>Grade 10</option>
+      <option>Grade 11 - ABM</option>
+      <option>Grade 11 - HUMSS</option>
+      <option>Grade 11 - STEM</option>
+      <option>Grade 12 - ABM</option>
+      <option>Grade 12 - HUMSS</option>
+      <option>Grade 12 - STEM</option>
+    </select>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" placeholder="Additional Notes"></textarea>
+    <button type="submit">Submit Enrollment</button>
+    <div id="formMessage"></div>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Information</h2>
+  <p><strong>Address:</strong> Malacampa, Camiling, Tarlac, Philippines</p>
+  <p><strong>Phone:</strong> 09561886559</p>
+  <p><strong>Email:</strong> <a href="mailto:rnelvis16@gmail.com">rnelvis16@gmail.com</a></p>
+  <p><strong>Fees:</strong> ₱35,000</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 BESTCAP. All Rights Reserved.</p>
+</footer>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("GrK91l9B9A-5CWHbR"); // Your public key
+
+  const form = document.getElementById("enrollForm");
+  const formMessage = document.getElementById("formMessage");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const submitBtn = this.querySelector("button[type='submit']");
+    submitBtn.disabled = true;
+    formMessage.style.display = "block";
+    formMessage.textContent = "⏳ Sending...";
+    formMessage.className = "";
+
+    emailjs.sendForm("service_xhyyu7d", "template_hycqjhi", this)
+      .then(function() {
+        formMessage.textContent = "✅ Thank you for enrolling! A copy has been sent to your email.";
+        formMessage.classList.add("success");
+        form.reset();
+        submitBtn.disabled = false;
+      }, function(error) {
+        console.error("FAILED...", error);
+        formMessage.textContent = "❌ Oops! Something went wrong. Please try again.";
+        formMessage.classList.add("error");
+        submitBtn.disabled = false;
+      });
+  });
+</script>
+
+</body>
+</html>
